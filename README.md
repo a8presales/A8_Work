@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this repo is to designate a place for the presales team to collab with various projects and serve as a quick reference when needed. Hopefully, this repo solves the issue of looking in various Google Docs and local directories for needed information. This inital setup if a great learning experience for the creater of this repo.
+The purpose of this repo is to designate a place for the presales team to collab with various projects and serve as a quick reference when needed. Hopefully, this repo solves the issue of looking in various Google Docs and local directories for needed information. This inital setup serves as a great learning experience for the creater of this repo.
 
 ## Installation / Usage
 
