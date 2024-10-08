@@ -1,0 +1,1210 @@
+{
+    "siteDict": {
+      "google": {
+        "id": "google",
+        "method": "get",
+        "url": "https://www.google.com/search?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Google",
+        "creator": "a8",
+        "deleted": false
+      },
+      "duckduckgo": {
+        "id": "duckduckgo",
+        "method": "get",
+        "url": "https://duckduckgo.com/?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "DuckDuckGo",
+        "creator": "a8",
+        "deleted": false
+      },
+      "yahoo": {
+        "id": "yahoo",
+        "method": "get",
+        "url": "https://search.yahoo.com/search?p=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Yahoo",
+        "creator": "a8",
+        "deleted": false
+      },
+      "bing": {
+        "id": "bing",
+        "method": "get",
+        "url": "https://www.bing.com/search?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Bing",
+        "creator": "a8",
+        "deleted": false
+      },
+      "domaintools": {
+        "id": "domaintools",
+        "name": "Domain tools",
+        "url": "https://whois.domaintools.com/",
+        "method": "post",
+        "type": [
+          "domain",
+          "url"
+        ],
+        "creator": "a8",
+        "options": {
+          "inputSelector": "landing-whois",
+          "buttonSelector": "Buttonstyles__Content-sc-17xhqrw-0 cbGQFA"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "virustotal": {
+        "id": "virustotal",
+        "method": "get",
+        "url": "https://www.virustotal.com/gui/search/",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "url"
+        ],
+        "category": "",
+        "name": "VirusTotal",
+        "creator": "a8",
+        "deleted": false
+      },
+      "dnsdumpster": {
+        "id": "dnsdumpster",
+        "method": "post",
+        "url": "https://dnsdumpster.com/",
+        "options": {
+          "inputSelector": "#regularInput",
+          "buttonSelector": ".btn"
+        },
+        "type": [
+          "domain",
+          "url"
+        ],
+        "category": "",
+        "name": "Dns Dumpster",
+        "creator": "a8",
+        "deleted": false
+      },
+      "socialsearchermentions": {
+        "id": "socialsearchermentions",
+        "method": "get",
+        "url": "https://www.social-searcher.com/social-buzz/?q5=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Mentions",
+        "creator": "a8",
+        "deleted": true
+      },
+      "socialsearcherusers": {
+        "id": "socialsearcherusers",
+        "method": "get",
+        "url": "https://www.social-searcher.com/search-users/?q6=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Users",
+        "creator": "a8",
+        "deleted": true
+      },
+      "socialsearchertrends": {
+        "id": "socialsearchertrends",
+        "method": "get",
+        "url": "https://www.social-searcher.com/social-trends/?q7=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Trends",
+        "creator": "a8",
+        "deleted": true
+      },
+      "baidu": {
+        "id": "baidu",
+        "method": "get",
+        "url": "https://www.baidu.com/s?wd=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Baidu",
+        "creator": "a8",
+        "deleted": true
+      },
+      "yandex": {
+        "id": "yandex",
+        "name": "Yandex  (Russian)",
+        "url": "https://yandex.com/search/?text=",
+        "method": "get",
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "creator": "a8",
+        "options": {},
+        "category": "",
+        "deleted": true
+      },
+      "shodan": {
+        "id": "shodan",
+        "method": "get",
+        "url": "https://www.shodan.io/search?query=",
+        "options": {},
+        "type": [
+          "domain",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Shodan",
+        "creator": "a8",
+        "deleted": false
+      },
+      "googleimg": {
+        "id": "googleimg",
+        "method": "get",
+        "url": "https://images.google.com/searchbyimage?image_url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Google rev img search",
+        "creator": "a8",
+        "deleted": true
+      },
+      "bingimg": {
+        "id": "bingimg",
+        "method": "get",
+        "url": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Bing rev img search",
+        "creator": "a8",
+        "deleted": false
+      },
+      "yandeximg": {
+        "id": "yandeximg",
+        "method": "get",
+        "url": "https://yandex.com/images/search?rpt=imageview&url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Yandex rev img search",
+        "creator": "a8",
+        "deleted": false
+      },
+      "phishtank": {
+        "id": "phishtank",
+        "method": "post",
+        "url": "https://www.phishtank.com/",
+        "options": {
+          "buttonSelector": ".submitbutton",
+          "inputSelector": "input[name ='isaphishurl']"
+        },
+        "type": [
+          "domain",
+          "url"
+        ],
+        "category": "",
+        "name": "Phishtank",
+        "creator": "a8",
+        "deleted": true
+      },
+      "tineye": {
+        "id": "tineye",
+        "method": "get",
+        "url": "https://tineye.com/search/?url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Tineye",
+        "creator": "a8",
+        "deleted": false
+      },
+      "baidu (china)1680801443774": {
+        "id": "baidu (china)1680801443774",
+        "name": "Baidu (China)",
+        "url": "https://www.baidu.com/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#kw",
+          "buttonSelector": "#su"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "daum (south korea)1680801981161": {
+        "id": "daum (south korea)1680801981161",
+        "name": "Daum (South Korea)",
+        "url": "https://www.daum.net/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#q",
+          "buttonSelector": "button.ico_pctop.btn_search"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "goo (japan)1680802040921": {
+        "id": "goo (japan)1680802040921",
+        "name": "goo (Japan)",
+        "url": "https://www.goo.ne.jp/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "input.srcBx-mainInput",
+          "buttonSelector": "#btnSearchTop"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "naver (south korea)1680802094625": {
+        "id": "naver (south korea)1680802094625",
+        "name": "NAVER (South Korea)",
+        "url": "https://www.naver.com/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#query",
+          "buttonSelector": "#search_btn"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "qihoo 360 (china)1680802155811": {
+        "id": "qihoo 360 (china)1680802155811",
+        "name": "Qihoo 360 (China)",
+        "url": "https://www.so.com/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "image",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#input",
+          "buttonSelector": "#search-button"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "sogou (china)1680802207534": {
+        "id": "sogou (china)1680802207534",
+        "name": "Sogou (China)",
+        "url": "https://www.sogou.com/",
+        "method": "post",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#query",
+          "buttonSelector": "#stb"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "ecosia  (germany)1680890291414": {
+        "id": "ecosia  (germany)1680890291414",
+        "name": "Ecosia  (Germany)",
+        "url": "https://www.ecosia.org/search?method=index&q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "mojeek  (uk)1680890372278": {
+        "id": "mojeek  (uk)1680890372278",
+        "name": "Mojeek  (UK)",
+        "url": "https://www.mojeek.com/search?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "qwant  (france)1680890460506": {
+        "id": "qwant  (france)1680890460506",
+        "name": "QWANT  (France)",
+        "url": "https://www.qwant.com/?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "you  (ai)1680890831289": {
+        "id": "you  (ai)1680890831289",
+        "name": "You  (AI)",
+        "url": "https://you.com/search?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "yep  (content creator)1680890955661": {
+        "id": "yep  (content creator)1680890955661",
+        "name": "Yep  (Content Creator)",
+        "url": "https://yep.com/web?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "openverse  (ol& pdw)1680891287535": {
+        "id": "openverse  (ol& pdw)1680891287535",
+        "name": "Openverse  (OL& PDW)",
+        "url": "https://openverse.org/search/?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "openverse (audio)1680891513528": {
+        "id": "openverse (audio)1680891513528",
+        "name": "Openverse (Audio)",
+        "url": "https://openverse.org/search/audio?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "wolframalpha  (com intel)1680891881548": {
+        "id": "wolframalpha  (com intel)1680891881548",
+        "name": "WolframAlpha  (com intel)",
+        "url": "https://www.wolframalpha.com/input?i=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "ap news1681332314036": {
+        "id": "ap news1681332314036",
+        "name": "AP News",
+        "url": "https://www.google.com/search?q=site%3Aapnews.com%2Farticle%2F+",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "aljazeera1681332348303": {
+        "id": "aljazeera1681332348303",
+        "name": "Aljazeera",
+        "url": "https://www.aljazeera.com/search/",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "bbc world1681332383231": {
+        "id": "bbc world1681332383231",
+        "name": "BBC World",
+        "url": "https://www.google.com/search?q=site%3Awww.bbc.com%2Fnews%2Fworld+",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "cnn world1681332412395": {
+        "id": "cnn world1681332412395",
+        "name": "CNN World",
+        "url": "https://www.cnn.com/search?category=world&q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "reuters world1681332447750": {
+        "id": "reuters world1681332447750",
+        "name": "Reuters World",
+        "url": "https://www.reuters.com/site-search/?section=world&query=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "morningstar1681405219510": {
+        "id": "morningstar1681405219510",
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/search?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "financial times1681405262744": {
+        "id": "financial times1681405262744",
+        "name": "Financial Times",
+        "url": "https://www.ft.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "fortune1681405289251": {
+        "id": "fortune1681405289251",
+        "name": "Fortune",
+        "url": "https://fortune.com/advanced-search/?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "international business times1681405327729": {
+        "id": "international business times1681405327729",
+        "name": "International Business Times",
+        "url": "https://www.ibtimes.com/search/site/",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "cnbc1681405353736": {
+        "id": "cnbc1681405353736",
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/search/?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "bloomberg1681405398130": {
+        "id": "bloomberg1681405398130",
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/search?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "wall street journal1681405424027": {
+        "id": "wall street journal1681405424027",
+        "name": "Wall Street Journal",
+        "url": "https://www.wsj.com/search?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "market watch1681405447865": {
+        "id": "market watch1681405447865",
+        "name": "Market Watch",
+        "url": "https://www.marketwatch.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "forbes1681405476840": {
+        "id": "forbes1681405476840",
+        "name": "Forbes",
+        "url": "https://www.forbes.com/search/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "yandex1681406014317": {
+        "id": "yandex1681406014317",
+        "name": "Yandex",
+        "url": "https://yandex.com/search/?text=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "hash",
+          "image",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "coc coc (vietnam)1681421656772": {
+        "id": "coc coc (vietnam)1681421656772",
+        "name": "Coc Coc (Vietnam)",
+        "url": "https://coccoc.com/search?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "url void1681946902936": {
+        "id": "url void1681946902936",
+        "name": "URL Void",
+        "url": "https://urlvoid.com/scan/",
+        "method": "get",
+        "type": [
+          "domain",
+          "url",
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "google social search1682095463897": {
+        "id": "google social search1682095463897",
+        "name": "Google Social Search",
+        "url": "https://www.social-searcher.com/google-social-search/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "upper ranks1682095552373": {
+        "id": "upper ranks1682095552373",
+        "name": "Upper Ranks",
+        "url": "https://theupperranks.com/social-profiles/#gsc.tab=0&gsc.q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "twitter1682095801627": {
+        "id": "twitter1682095801627",
+        "name": "Tiktok",
+        "url": "https://www.tiktok.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "hybrid analysis1682373017899": {
+        "id": "hybrid analysis1682373017899",
+        "name": "Hybrid Analysis",
+        "url": "https://www.hybrid-analysis.com/search?query=",
+        "method": "get",
+        "type": [
+          "hash"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "cymru malware hash registry1682373057135": {
+        "id": "cymru malware hash registry1682373057135",
+        "name": "Cymru Malware Hash Registry",
+        "url": "https://hash.cymru.com",
+        "method": "post",
+        "type": [
+          "hash"
+        ],
+        "creator": "user",
+        "options": {
+          "inputSelector": "#hashes.form-control",
+          "buttonSelector": "#mhr-form-submit"
+        },
+        "category": "",
+        "deleted": false
+      },
+      "alienvault open threat exchange1682373133129": {
+        "id": "alienvault open threat exchange1682373133129",
+        "name": "AlienVault Open Threat Exchange",
+        "url": "https://otx.alienvault.com/browse/global/pulses?q=",
+        "method": "get",
+        "type": [
+          "hash"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "kaspersky threat intelligence portal1682373194053": {
+        "id": "kaspersky threat intelligence portal1682373194053",
+        "name": "Kaspersky Threat Intelligence Portal",
+        "url": "https://opentip.kaspersky.com/",
+        "method": "get",
+        "type": [
+          "hash"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "google ru (russia)1682373421263": {
+        "id": "google ru (russia)1682373421263",
+        "name": "Google RU (Russia)",
+        "url": "https://www.google.ru/search?q=",
+        "method": "get",
+        "type": [
+          "domain",
+          "email",
+          "image",
+          "text",
+          "url"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "reddit1682378994075": {
+        "id": "reddit1682378994075",
+        "name": "Reddit",
+        "url": "https://www.reddit.com/search/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "ahmia1683563744598": {
+        "id": "ahmia1683563744598",
+        "name": "Ahmia",
+        "url": "https://ahmia.fi/search/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "tor link1683563847048": {
+        "id": "tor link1683563847048",
+        "name": "TOR Link",
+        "url": "https://tor.link/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "onion land1683563880260": {
+        "id": "onion land1683563880260",
+        "name": "Onion Land",
+        "url": "https://onionlandsearchengine.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "bobby search1683569695388": {
+        "id": "bobby search1683569695388",
+        "name": "Bobby Search",
+        "url": "http://bobby64o755x3gsuznts6hf6agxqjcz5bop6hs7ejorekbm7omes34ad.onion/search_result.php?search_text=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "find tor1683569732862": {
+        "id": "find tor1683569732862",
+        "name": "Find Tor",
+        "url": "http://findtorroveq5wdnipkaojfpqulxnkhblymc7aramjzajcvpptd4rjqd.onion/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "submarine1683569766152": {
+        "id": "submarine1683569766152",
+        "name": "Submarine",
+        "url": "http://no6m4wzdexe3auiupv2zwif7rm6qwxcyhslkcnzisxgeiw6pvjsgafad.onion/search.php?term=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "tor661683569854627": {
+        "id": "tor661683569854627",
+        "name": "Tor66",
+        "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "space search1683569894821": {
+        "id": "space search1683569894821",
+        "name": "Space Search",
+        "url": "http://spacednczzrstmwlrt2olozfyrxcnrn3seyz2t4nhigujx5yivfy23id.onion/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "evo search1696360638597": {
+        "id": "evo search1696360638597",
+        "name": "EVO Search",
+        "url": "http://wbr4bzzxbeidc6dwcqgwr3b6jl7ewtykooddsc5ztev3t3otnl45khyd.onion/evo/?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "excavator1696360687512": {
+        "id": "excavator1696360687512",
+        "name": "Excavator",
+        "url": "http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/search/",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "gdark1696360759972": {
+        "id": "gdark1696360759972",
+        "name": "GDark",
+        "url": "http://zb2jtkhnbvhkya3d46twv3g7lkobi4s62tjffqmafjibixk6pmq75did.onion/gdark/search.php?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "grams dw search1696360835152": {
+        "id": "grams dw search1696360835152",
+        "name": "Grams DW Search",
+        "url": "http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion/search?key=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "haystack dw search1696360867879": {
+        "id": "haystack dw search1696360867879",
+        "name": "Haystack DW Search",
+        "url": "http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "tor ^^ dw search1696360932757": {
+        "id": "tor ^^ dw search1696360932757",
+        "name": "TOR ^^ DW Search",
+        "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      }
+    },
+    "workflows": [
+      {
+        "id": 3,
+        "name": "Domain/URL Search",
+        "type": "domain",
+        "search_engines": [
+          "domaintools",
+          "virustotal",
+          "dnsdumpster",
+          "url void1681946902936"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Reverse Image Search",
+        "type": "image",
+        "search_engines": [
+          "bingimg",
+          "yandeximg",
+          "tineye"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Social Media Search",
+        "type": "text",
+        "search_engines": [
+          "google social search1682095463897",
+          "upper ranks1682095552373",
+          "twitter1682095801627",
+          "reddit1682378994075"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Hash Search",
+        "type": "hash",
+        "search_engines": [
+          "hybrid analysis1682373017899",
+          "cymru malware hash registry1682373057135",
+          "alienvault open threat exchange1682373133129",
+          "kaspersky threat intelligence portal1682373194053",
+          "virustotal"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Asia Regional Search",
+        "type": "text",
+        "search_engines": [
+          "baidu (china)1680801443774",
+          "daum (south korea)1680801981161",
+          "goo (japan)1680802040921",
+          "naver (south korea)1680802094625",
+          "qihoo 360 (china)1680802155811",
+          "sogou (china)1680802207534",
+          "coc coc (vietnam)1681421656772"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Europe Regional Search",
+        "type": "text",
+        "search_engines": [
+          "ecosia  (germany)1680890291414",
+          "mojeek  (uk)1680890372278",
+          "qwant  (france)1680890460506"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "North America Regional Search",
+        "type": "text",
+        "search_engines": [
+          "google",
+          "duckduckgo",
+          "yahoo",
+          "bing"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Russia Regional Search",
+        "type": "text",
+        "search_engines": [
+          "yandex1681406014317",
+          "google ru (russia)1682373421263"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Surface to DW 2023",
+        "type": "text",
+        "search_engines": [
+          "ahmia1683563744598",
+          "tor link1683563847048",
+          "onion land1683563880260"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "DW_Search",
+        "type": "text",
+        "search_engines": [
+          "space search1683569894821",
+          "tor661683569854627",
+          "submarine1683569766152",
+          "find tor1683569732862",
+          "bobby search1683569695388",
+          "ahmia1683563744598",
+          "tor ^^ dw search1696360932757",
+          "haystack dw search1696360867879",
+          "grams dw search1696360835152",
+          "gdark1696360759972",
+          "excavator1696360687512",
+          "evo search1696360638597"
+        ]
+      }
+    ]
+  }
