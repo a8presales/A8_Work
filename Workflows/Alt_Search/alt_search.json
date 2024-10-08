@@ -1,0 +1,585 @@
+{
+    "siteDict": {
+      "google": {
+        "id": "google",
+        "method": "get",
+        "url": "https://www.google.com/search?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Google",
+        "creator": "a8",
+        "deleted": false
+      },
+      "duckduckgo": {
+        "id": "duckduckgo",
+        "method": "get",
+        "url": "https://duckduckgo.com/?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "DuckDuckGo",
+        "creator": "a8",
+        "deleted": false
+      },
+      "yahoo": {
+        "id": "yahoo",
+        "method": "get",
+        "url": "https://search.yahoo.com/search?p=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Yahoo",
+        "creator": "a8",
+        "deleted": false
+      },
+      "bing": {
+        "id": "bing",
+        "method": "get",
+        "url": "https://www.bing.com/search?q=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Bing",
+        "creator": "a8",
+        "deleted": false
+      },
+      "domaintools": {
+        "id": "domaintools",
+        "method": "get",
+        "url": "https://whois.domaintools.com/",
+        "options": {},
+        "type": [
+          "domain",
+          "url"
+        ],
+        "category": "",
+        "name": "Domain tools",
+        "creator": "a8",
+        "deleted": false
+      },
+      "virustotal": {
+        "id": "virustotal",
+        "method": "get",
+        "url": "https://www.virustotal.com/gui/search/",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "url"
+        ],
+        "category": "",
+        "name": "VirusTotal",
+        "creator": "a8",
+        "deleted": false
+      },
+      "dnsdumpster": {
+        "id": "dnsdumpster",
+        "method": "post",
+        "url": "https://dnsdumpster.com/",
+        "options": {
+          "inputSelector": "#regularInput",
+          "buttonSelector": ".btn"
+        },
+        "type": [
+          "domain",
+          "url"
+        ],
+        "category": "",
+        "name": "Dns Dumpster",
+        "creator": "a8",
+        "deleted": false
+      },
+      "socialsearchermentions": {
+        "id": "socialsearchermentions",
+        "method": "get",
+        "url": "https://www.social-searcher.com/social-buzz/?q5=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Mentions",
+        "creator": "a8",
+        "deleted": false
+      },
+      "socialsearcherusers": {
+        "id": "socialsearcherusers",
+        "method": "get",
+        "url": "https://www.social-searcher.com/search-users/?q6=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Users",
+        "creator": "a8",
+        "deleted": false
+      },
+      "socialsearchertrends": {
+        "id": "socialsearchertrends",
+        "method": "get",
+        "url": "https://www.social-searcher.com/social-trends/?q7=",
+        "options": {},
+        "type": [
+          "text",
+          "email"
+        ],
+        "category": "",
+        "name": "Social Searcher Trends",
+        "creator": "a8",
+        "deleted": false
+      },
+      "baidu": {
+        "id": "baidu",
+        "method": "get",
+        "url": "https://www.baidu.com/s?wd=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Baidu",
+        "creator": "a8",
+        "deleted": false
+      },
+      "yandex": {
+        "id": "yandex",
+        "method": "get",
+        "url": "https://yandex.com/search/?text=",
+        "options": {},
+        "type": [
+          "domain",
+          "hash",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Yandex",
+        "creator": "a8",
+        "deleted": false
+      },
+      "shodan": {
+        "id": "shodan",
+        "method": "get",
+        "url": "https://www.shodan.io/search?query=",
+        "options": {},
+        "type": [
+          "domain",
+          "email",
+          "text",
+          "url"
+        ],
+        "category": "",
+        "name": "Shodan",
+        "creator": "a8",
+        "deleted": false
+      },
+      "googleimg": {
+        "id": "googleimg",
+        "method": "get",
+        "url": "https://images.google.com/searchbyimage?image_url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Google rev img search",
+        "creator": "a8",
+        "deleted": false
+      },
+      "bingimg": {
+        "id": "bingimg",
+        "method": "get",
+        "url": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Bing rev img search",
+        "creator": "a8",
+        "deleted": false
+      },
+      "tineye": {
+        "id": "tineye",
+        "method": "get",
+        "url": "https://tineye.com/search/?url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Tineye",
+        "creator": "a8",
+        "deleted": false
+      },
+      "yandeximg": {
+        "id": "yandeximg",
+        "method": "get",
+        "url": "https://yandex.com/images/search?rpt=imageview&url=",
+        "options": {},
+        "type": [
+          "image"
+        ],
+        "category": "",
+        "name": "Yandex rev img search",
+        "creator": "a8",
+        "deleted": false
+      },
+      "phishtank": {
+        "id": "phishtank",
+        "method": "post",
+        "url": "https://www.phishtank.com/",
+        "options": {
+          "buttonSelector": ".submitbutton",
+          "inputSelector": "input[name ='isaphishurl']"
+        },
+        "type": [
+          "domain",
+          "url"
+        ],
+        "category": "",
+        "name": "Phishtank",
+        "creator": "a8",
+        "deleted": false
+      },
+      "all the internet1631110277897": {
+        "id": "all the internet1631110277897",
+        "method": "get",
+        "url": "https://www.alltheinternet.com/?q=",
+        "options": {},
+        "type": [
+          "text"
+        ],
+        "category": "",
+        "name": "All the Internet",
+        "creator": "user",
+        "deleted": false
+      },
+      "izito1631110426943": {
+        "id": "izito1631110426943",
+        "method": "get",
+        "url": "https://www.izito.com/?q=",
+        "options": {},
+        "type": [
+          "text"
+        ],
+        "category": "",
+        "name": "Izito",
+        "creator": "user",
+        "deleted": false
+      },
+      "excite1631111075259": {
+        "id": "excite1631111075259",
+        "method": "get",
+        "url": "https://results.excite.com/serp?q=",
+        "options": {},
+        "type": [
+          "text"
+        ],
+        "category": "",
+        "name": "Excite",
+        "creator": "user",
+        "deleted": false
+      },
+      "dnslytics": {
+        "id": "dnslytics",
+        "method": "get",
+        "url": "https://search.dnslytics.com/ip/",
+        "options": {},
+        "type": [
+          "ip"
+        ],
+        "category": "",
+        "name": "DNSlytics",
+        "creator": "a8",
+        "deleted": false
+      },
+      "dnschecker": {
+        "id": "DNS Checker",
+        "method": "get",
+        "url": "https://dnschecker.org/ip-location.php?ip=",
+        "options": {},
+        "type": [
+          "ip"
+        ],
+        "category": "",
+        "name": "DNS Checker",
+        "creator": "a8",
+        "deleted": false
+      },
+      "mojeek search1728422259242": {
+        "id": "mojeek search1728422259242",
+        "name": "Mojeek Search",
+        "url": "https://www.mojeek.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "yep search1728422283526": {
+        "id": "yep search1728422283526",
+        "name": "Yep Search",
+        "url": "https://yep.com/web?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "brave search1728422309385": {
+        "id": "brave search1728422309385",
+        "name": "Brave Search",
+        "url": "https://search.brave.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "swiss cow search1728422337239": {
+        "id": "swiss cow search1728422337239",
+        "name": "Swiss Cow Search",
+        "url": "https://swisscows.com/en/web?query=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "ecosia search1728422364842": {
+        "id": "ecosia search1728422364842",
+        "name": "Ecosia Search",
+        "url": "https://www.ecosia.org/search?method=index&q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "you care search1728422392782": {
+        "id": "you care search1728422392782",
+        "name": "You Care Search",
+        "url": "https://youcare.world/all?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "reefseek search1728422421173": {
+        "id": "reefseek search1728422421173",
+        "name": "ReefSeek Search",
+        "url": "https://www.refseek.com/search?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "wolframalpha search1728422465666": {
+        "id": "wolframalpha search1728422465666",
+        "name": "Wolframalpha Search",
+        "url": "https://www.wolframalpha.com/input?i=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "search engine links search1728422498210": {
+        "id": "search engine links search1728422498210",
+        "name": "Search Engine Links Search",
+        "url": "https://www.searchenginelinks.co.uk/site/search/?phrase=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      },
+      "dogpile search1728422530017": {
+        "id": "dogpile search1728422530017",
+        "name": "Dogpile Search",
+        "url": "https://www.dogpile.com/serp?q=",
+        "method": "get",
+        "type": [
+          "text"
+        ],
+        "creator": "user",
+        "options": {},
+        "category": "",
+        "deleted": false
+      }
+    },
+    "workflows": [
+      {
+        "id": 1,
+        "name": "Default workflow",
+        "search_engines": [
+          "google"
+        ],
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "name": "General Selection Search",
+        "search_engines": [
+          "bing",
+          "google",
+          "duckduckgo",
+          "yahoo"
+        ],
+        "type": "text"
+      },
+      {
+        "id": 3,
+        "name": "Regional Selection Search",
+        "search_engines": [
+          "baidu",
+          "yandex"
+        ],
+        "type": "text"
+      },
+      {
+        "id": 4,
+        "name": "Default Domain Search",
+        "search_engines": [
+          "domaintools",
+          "virustotal",
+          "dnsdumpster",
+          "phishtank"
+        ],
+        "type": "domain"
+      },
+      {
+        "id": 5,
+        "name": "Default Url Search",
+        "search_engines": [
+          "virustotal",
+          "phishtank"
+        ],
+        "type": "url"
+      },
+      {
+        "id": 6,
+        "name": "Default Reverse Image Search",
+        "search_engines": [
+          "bingimg",
+          "googleimg",
+          "tineye",
+          "yandeximg"
+        ],
+        "type": "image"
+      },
+      {
+        "id": 7,
+        "name": "Default Social Search ",
+        "search_engines": [
+          "socialsearchermentions",
+          "socialsearcherusers",
+          "socialsearchertrends"
+        ],
+        "type": "text"
+      },
+      {
+        "id": 8,
+        "name": "Default Hash Search",
+        "search_engines": [
+          "virustotal"
+        ],
+        "type": "hash"
+      },
+      {
+        "id": 9,
+        "name": "Default Email Search",
+        "search_engines": [
+          "google",
+          "duckduckgo",
+          "yahoo",
+          "bing",
+          "socialsearcherusers"
+        ],
+        "type": "email"
+      },
+      {
+        "id": 10,
+        "name": "Alternative Searches",
+        "type": "text",
+        "search_engines": [
+          "all the internet1631110277897",
+          "izito1631110426943",
+          "excite1631111075259",
+          "dogpile search1728422530017",
+          "search engine links search1728422498210",
+          "wolframalpha search1728422465666",
+          "reefseek search1728422421173",
+          "you care search1728422392782",
+          "ecosia search1728422364842",
+          "swiss cow search1728422337239",
+          "brave search1728422309385",
+          "yep search1728422283526",
+          "mojeek search1728422259242"
+        ]
+      }
+    ]
+  }
